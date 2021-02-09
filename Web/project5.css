@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(shop1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(201, 201, 201, 0.2);
+}
+nav ul{
+    list-style-type: none;
+    height: 85px; 
+    width: 100%;
+    background-color: rgba(175, 166, 166, 0.3);
+    
+}
+nav ul li{
+    display: inline;
+    float: right;
+    margin-top: 23px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 33px;
+    cursor: pointer;
+    font-family: 'Hammersmith One', sans-serif;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    color: black;
+    font-size: 33px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    transform: translateY(2px);
+     transition: 0.5s ease;
+     border-bottom: 2px solid white;
+     color:red;
+    transition: all .4s;
+    padding-top: 0.1rem;
+}
+hr{
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+}
+nav ul li:hover{
+    
+     transform: translateY(5px);
+     transition: 0.5s ease;
+     border-bottom: 2px solid white;
+     color:red;
+    transition: all .4s;
+    padding-top: 0.2rem;
+}
+#home{
+    margin-top: 200px; 
+    margin-left: 900px;
+    font-size: 25px;
+   
+}
+#item{
+    margin-top: 500px;
+    margin-right: 45px;
+}
+#men{
+    font-size: 15px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+    width: 98%;
+    padding-top: 5px;
+    height: 455px;
+    background-color: rgb(212, 244, 248);
+    font-family: 'Work Sans', sans-serif;
+}
+#men img{
+    width: 230px;
+    height: 270px;
+    margin: 20px;
+}
+#woman{
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 0px;
+    width: 98%;
+    padding-top: 5px;
+    height: 455px;
+    background-color: rgb(248, 212, 248);
+    
+}
+#woman img{
+    width: 230px;
+    height: 270px;
+    margin: 20px;
+}
+#woman img:hover{
+    transform:translateY(7px);
+    transition: 0.5s ease;
+    
+}
+#sport{
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+    width: 98%;
+    padding-top: 55px;
+    height: 405px;
+    background-color: rgb(202, 219, 255);
+    margin-top: 30px;
+    
+}
+#logo img:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease;
+}
+#sport img{
+    width: 230px;
+    height: 270px;
+    margin: 20px;
+}
+#sport img:hover{
+    transform:translateY(5px);
+    transition: 0.5s ease;
+    
+}
+#men img:hover{
+    transform:translateY(5px);
+    transition: 0.5s ease;
+}
+
+#Best{
+    width: 96%;
+    height: 150px;
+    background-color: rgb(73, 50, 205);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#footer{
+    background: #000;
+   
+    font-size: 14px;
+    padding: 60px 0 20px;
+   height: 280px;
+    
+}
+#footer p{
+    color: rgba(255, 255, 255, 0.781);
+    margin-top: -10px;
+    font-size: 18px;
+    
+}
+#footer h3{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(236, 44, 44);
+}
+   
+.footer-col-1{
+    min-width: 250px;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+    margin-left: 60px;
+    margin-top: -20px;
+    margin-left: 120px;
+}
+.footer-col-2{
+    min-width: 250px;
+    margin-bottom: 20px;
+   
+    text-align: center;
+    margin-left: -250px;
+    margin-top: -140px;
+}
+.footer-col-3{
+    margin-left: 390px;
+     min-width: 250px;
+    margin-bottom: 20px;
+    margin-top: -105px;
+    text-align: center;
+    font-size: 23px;
+}
+.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+   margin-left: 980px;
+   margin-top: -160px;
+    text-align: center;
+    font-size: 23px;
+}
+#footer ul{
+    list-style-type: none;
+    margin-top: -13px;
+    color: rgba(255, 255, 255, 0.781);
+}
+.img-logo{
+    margin-top: 20px;
+}
+.img-logo img{
+    width: 90px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.checked{
+    color: orange;
+}
+.btn{
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 18px;
+    box-shadow: none;
+    background-color: rgba(243, 32, 32, 0.795);
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition:0.6s ease;
+}
+#valentine{
+    font-size: 15px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 10px;
+    width: 98%;
+    padding-top: 5px;
+    height: 670px;
+    
+    font-family: 'Work Sans', sans-serif;
+}
+#valentine img{
+    width: 250px;
+    height: 250px;
+    margin: 15px 20px 20px 20px;
+}
+#valentine img:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease;
+}
+
+.footer-col-5{
+    min-width: 250px;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-left: 120px;
+    padding: 15px;
+}
+.footer-col-6{
+    min-width: 250px;
+    margin-bottom: 20px;
+   
+    text-align: center;
+    margin-left: -250px;
+    margin-top: -160px;
+}
+.footer-col-7{
+    margin-left: 390px;
+     min-width: 250px;
+    margin-bottom: 20px;
+    margin-top: -135px;
+    text-align: center;
+    font-size: 23px;
+}
+.footer-col-8{
+    min-width: 250px;
+    margin-bottom: 20px;
+   margin-left: 980px;
+   margin-top: -130px;
+    text-align: center;
+    font-size: 23px;
+}
+#i{
+    margin-bottom: 8px;
+   color: white;
+}
+
+samp{
+    color: rgba(255, 255, 255, 0.781);
+}
